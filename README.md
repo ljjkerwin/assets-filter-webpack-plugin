@@ -1,0 +1,1 @@
+Just an simple plugin to interact with the assets which webpack is going to emit.
