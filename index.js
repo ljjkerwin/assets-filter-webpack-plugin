@@ -6,7 +6,7 @@ class AssetsFilterWebpackPlugin {
   apply(compiler) {
     compiler.hooks.emit.tapAsync('AssetsFilterWebpackPlugin', (compilation, callback) => {
 
-      this.cb && this.cb(compilation.assets, callback);
+      this.cb && this.cb(compilation, callback);
     });
   }
 }
